@@ -1,4 +1,4 @@
-15983010000776818
+15986150075694193
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44941,6 +44941,20 @@ CC_BY_NC_SA_40_30mm
 0
 Homebrew
 CC_BY_NC_SA_40_36mm
+
+
+0
+0
+0
+Homebrew
+mein_IRF3708
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+Homebrew
+QR-Code_2CH_STM32_15mm
 
 
 0
