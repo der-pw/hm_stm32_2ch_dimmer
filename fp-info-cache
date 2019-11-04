@@ -1,4 +1,4 @@
-15986150075694193
+15989295674280811
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44919,6 +44919,13 @@ CC1101
 16
 8
 Homebrew
+CC1101_Module
+
+
+0
+11
+11
+Homebrew
 CC1101_single-side
 
 
@@ -44946,6 +44953,13 @@ CC_BY_NC_SA_40_36mm
 0
 0
 0
+Homebrew
+LC78_03-05
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 Homebrew
 mein_IRF3708
 TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf

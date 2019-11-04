@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "HM_STM32_2CH_Dimmer"
 Date ""
-Rev "V1.1"
+Rev "V1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -949,9 +949,9 @@ L STM32_2CH_Dimmer-rescue:173950378 U1
 U 1 1 5D8FF05D
 P 1950 1100
 F 0 "U1" H 1950 1375 50  0000 C CNN
-F 1 "LC78" H 1950 1284 50  0000 C CNN
+F 1 "LC78_03-05" H 1950 1284 50  0000 C CNN
 F 2 "Homebrew:WE_FDSM_173950378" H 1950 1100 50  0001 C CNN
-F 3 "" H 1950 1100 50  0001 C CNN
+F 3 "https://www.reichelt.de/dc-dc-wandler-1-65-w-3-3-v-500-ma-to-220-lc78-03-0-5-p242822.html" H 1950 1100 50  0001 C CNN
 	1    1950 1100
 	1    0    0    -1  
 $EndComp
@@ -1081,4 +1081,8 @@ F 3 "" H 1450 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 1700 1450 1550
+Text Notes 7975 6925 0    157  ~ 31
+CC BY-NC-SA 4.0
+Text Notes 8200 4450 0    50   ~ 0
+use SS15/SS16 Schottky @ 24V
 $EndSCHEMATC

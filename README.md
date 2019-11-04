@@ -1,12 +1,8 @@
 # hm_stm32_2ch_dimmer
-
-### Evaluation phase, please do not build yet!
-
-PCB for an Asksin++ 2CH-LED-Dimmer, runs on a STM32.
+PCB for a Asksin++ 2CH-LED-Dimmer based on a STM32
 Based on the good groundwork of pa-pa and its STM32 dimmer https://github.com/pa-pa/STM32Dimmer
 
---
-### Evaluationsphsae, bitte noch nicht nachbauen!
+---------
 
 Platinendesign für einen Asksin++ 2 Kanaldimmer, der mit einem STM32 angetrieben wird.
 Basiert auf der guten Vorarbeit von pa-pa und seinem STM32 Dimmer https://github.com/pa-pa/STM32Dimmer
