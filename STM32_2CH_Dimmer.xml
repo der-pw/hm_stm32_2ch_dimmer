@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Patrick\Documents\Kicad\Homebrew\STM32_2CH_Dimmer\STM32_2CH_Dimmer.sch</source>
-    <date>04.11.2019 20:29:08</date>
+    <date>04.11.2019 21:00:04</date>
     <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -54,7 +54,7 @@
     <comp ref="D1">
       <value>SS14</value>
       <footprint>Diodes_SMD:D_SMA</footprint>
-      <datasheet>https://de.aliexpress.com/item/100PCS-SMA-Rectifier-diode-1N5819-SS14-1N5822-SS34-SR160-SS16-1N5817-SS12-SR1100-SS110-SR360-SS36/32849859393.html?spm=a2g0x.search0104.3.1.51e17831k6mqUy&amp;ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10321_10151_10065_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_5011711_5723611_10302_5011811_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_55,ppcSwitch_5&amp;algo_expid=9582c958-26fb-4969-b9f2-a0d34c9e4af6-0&amp;algo_pvid=9582c958-26fb-4969-b9f2-a0d34c9e4af6&amp;transAbTest=ae803_1&amp;priceBeautifyAB=0</datasheet>
+      <datasheet>https://de.aliexpress.com/item/100PCS-SMA-Rectifier-diode-1N5819-SS14-1N5822-SS34-SR160-SS16-1N5817-SS12-SR1100-SS110-SR360-SS36/32849859393.html</datasheet>
       <libsource lib="STM32_2CH_Dimmer-rescue" part="D-STM32Dimmer-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B64CB21</tstamp>
@@ -92,7 +92,7 @@
     <comp ref="D2">
       <value>SS14</value>
       <footprint>Diodes_SMD:D_SMA</footprint>
-      <datasheet>https://de.aliexpress.com/item/100PCS-SMA-Rectifier-diode-1N5819-SS14-1N5822-SS34-SR160-SS16-1N5817-SS12-SR1100-SS110-SR360-SS36/32849859393.html?spm=a2g0x.search0104.3.1.51e17831k6mqUy&amp;ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10321_10151_10065_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_5011711_5723611_10302_5011811_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_55,ppcSwitch_5&amp;algo_expid=9582c958-26fb-4969-b9f2-a0d34c9e4af6-0&amp;algo_pvid=9582c958-26fb-4969-b9f2-a0d34c9e4af6&amp;transAbTest=ae803_1&amp;priceBeautifyAB=0</datasheet>
+      <datasheet>https://de.aliexpress.com/item/100PCS-SMA-Rectifier-diode-1N5819-SS14-1N5822-SS34-SR160-SS16-1N5817-SS12-SR1100-SS110-SR360-SS36/32849859393.html</datasheet>
       <libsource lib="STM32_2CH_Dimmer-rescue" part="D-STM32Dimmer-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B675130</tstamp>
@@ -250,7 +250,7 @@
     </comp>
     <comp ref="U1">
       <value>LC78_03-05</value>
-      <footprint>Homebrew:WE_FDSM_173950378</footprint>
+      <footprint>Homebrew:LC78_03-05</footprint>
       <datasheet>https://www.reichelt.de/dc-dc-wandler-1-65-w-3-3-v-500-ma-to-220-lc78-03-0-5-p242822.html</datasheet>
       <libsource lib="STM32_2CH_Dimmer-rescue" part="173950378" description=""/>
       <sheetpath names="/" tstamps="/"/>
