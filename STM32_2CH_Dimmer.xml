@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Patrick\Documents\Kicad\Homebrew\STM32_2CH_Dimmer\STM32_2CH_Dimmer.sch</source>
-    <date>04.11.2019 21:00:04</date>
+    <date>04.11.2019 21:03:26</date>
     <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -135,7 +135,7 @@
     <comp ref="U5">
       <value>DS18B20</value>
       <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
-      <datasheet>https://de.aliexpress.com/item/DS18B20-18B20-Programmable-Resolution-1-Wire-Digital-Thermometer-IC-TO-92/32794981963.html?spm=a2g0x.search0104.3.1.53ce67d7nLnlda&amp;ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10321_10151_10065_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_5011711_5723611_10302_5011811_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_55,ppcSwitch_5&amp;algo_expid=fca83196-0a33-4651-a86e-55e54e91aad3-3&amp;algo_pvid=fca83196-0a33-4651-a86e-55e54e91aad3&amp;transAbTest=ae803_1&amp;priceBeautifyAB=0</datasheet>
+      <datasheet>https://de.aliexpress.com/item/DS18B20-18B20-Programmable-Resolution-1-Wire-Digital-Thermometer-IC-TO-92/32794981963.html</datasheet>
       <libsource lib="STM32_2CH_Dimmer-rescue" part="DS18B20-STM32Dimmer-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B681525</tstamp>

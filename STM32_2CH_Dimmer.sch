@@ -300,7 +300,7 @@ P 4200 5500
 F 0 "U5" H 4050 5750 50  0000 C CNN
 F 1 "DS18B20" H 4450 5750 50  0000 C CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 3200 5250 50  0001 C CNN
-F 3 "https://de.aliexpress.com/item/DS18B20-18B20-Programmable-Resolution-1-Wire-Digital-Thermometer-IC-TO-92/32794981963.html?spm=a2g0x.search0104.3.1.53ce67d7nLnlda&ws_ab_test=searchweb0_0,searchweb201602_1_10320_10152_10321_10151_10065_10344_10068_10342_10547_10343_10322_10340_10548_10341_10696_10084_10083_10618_10304_10307_10820_10821_5011711_5723611_10302_5011811_10843_10059_100031_10319_10103_10624_10623_10622_10621_10620,searchweb201603_55,ppcSwitch_5&algo_expid=fca83196-0a33-4651-a86e-55e54e91aad3-3&algo_pvid=fca83196-0a33-4651-a86e-55e54e91aad3&transAbTest=ae803_1&priceBeautifyAB=0" H 4050 5750 50  0001 C CNN
+F 3 "https://de.aliexpress.com/item/DS18B20-18B20-Programmable-Resolution-1-Wire-Digital-Thermometer-IC-TO-92/32794981963.html" H 4050 5750 50  0001 C CNN
 	1    4200 5500
 	1    0    0    -1  
 $EndComp
