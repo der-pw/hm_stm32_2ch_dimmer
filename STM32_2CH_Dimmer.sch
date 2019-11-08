@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "HM_STM32_2CH_Dimmer"
 Date ""
-Rev "V1.2"
+Rev "V1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -344,8 +344,6 @@ $EndComp
 Wire Wire Line
 	9300 3600 9300 3450
 Wire Wire Line
-	6400 3250 6700 3250
-Wire Wire Line
 	9300 3450 9400 3450
 Wire Wire Line
 	8700 4000 8750 4000
@@ -403,12 +401,6 @@ Connection ~ 6200 5450
 Wire Wire Line
 	6300 5600 6200 5600
 Connection ~ 6200 5600
-Wire Wire Line
-	4150 2150 3900 2150
-Wire Wire Line
-	4150 2250 3900 2250
-Wire Wire Line
-	4150 2050 3900 2050
 Wire Wire Line
 	6850 1750 6850 1850
 Wire Wire Line
@@ -530,12 +522,6 @@ Wire Wire Line
 	6400 3350 6700 3350
 Wire Wire Line
 	6400 3050 6700 3050
-Wire Wire Line
-	6400 2750 6650 2750
-Wire Wire Line
-	6400 2650 6650 2650
-Wire Wire Line
-	6400 2550 6650 2550
 Wire Wire Line
 	4150 3150 3900 3150
 $Comp
@@ -1085,4 +1071,103 @@ Text Notes 7975 6925 0    157  ~ 31
 CC BY-NC-SA 4.0
 Text Notes 8200 4450 0    50   ~ 0
 use SS15/SS16 Schottky @ 24V
+Wire Wire Line
+	6400 3150 6700 3150
+Text Label 6700 3050 2    50   ~ 0
+RX
+Text Label 6700 3150 2    50   ~ 0
+TX
+NoConn ~ 6400 2850
+NoConn ~ 6400 2950
+NoConn ~ 6400 3250
+NoConn ~ 4150 2350
+NoConn ~ 4150 2250
+NoConn ~ 4150 2150
+NoConn ~ 4150 2050
+NoConn ~ 4150 1950
+NoConn ~ 4150 1850
+NoConn ~ 4150 1750
+Wire Wire Line
+	1600 5625 1925 5625
+$Comp
+L power:VCC #PWR0102
+U 1 1 5DCD70B6
+P 1925 5625
+F 0 "#PWR0102" H 1925 5475 50  0001 C CNN
+F 1 "VCC" H 1975 5700 50  0000 L CNN
+F 2 "" H 1925 5625 50  0001 C CNN
+F 3 "" H 1925 5625 50  0001 C CNN
+	1    1925 5625
+	1    0    0    -1  
+$EndComp
+Text Label 1925 6225 2    50   ~ 0
+TX
+Text Label 1925 5925 2    50   ~ 0
+RX
+Wire Wire Line
+	1600 6225 1925 6225
+Wire Wire Line
+	1600 5925 1925 5925
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DD0D09E
+P 1600 5625
+F 0 "TP1" V 1795 5697 50  0000 C CNN
+F 1 "TestPoint" V 1704 5697 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 5625 50  0001 C CNN
+F 3 "~" H 1800 5625 50  0001 C CNN
+	1    1600 5625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DD15DDC
+P 1600 5925
+F 0 "TP2" V 1795 5997 50  0000 C CNN
+F 1 "TestPoint" V 1704 5997 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 5925 50  0001 C CNN
+F 3 "~" H 1800 5925 50  0001 C CNN
+	1    1600 5925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DD1617F
+P 1600 6225
+F 0 "TP3" V 1795 6297 50  0000 C CNN
+F 1 "TestPoint" V 1704 6297 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6225 50  0001 C CNN
+F 3 "~" H 1800 6225 50  0001 C CNN
+	1    1600 6225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5DD16D49
+P 1600 6525
+F 0 "TP4" V 1795 6597 50  0000 C CNN
+F 1 "TestPoint" V 1704 6597 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6525 50  0001 C CNN
+F 3 "~" H 1800 6525 50  0001 C CNN
+	1    1600 6525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 6525 1925 6525
+$Comp
+L STM32_2CH_Dimmer-rescue:GND-STM32Dimmer-rescue #PWR0101
+U 1 1 5DCD6A8E
+P 1925 6525
+F 0 "#PWR0101" H 1925 6275 50  0001 C CNN
+F 1 "GND" H 1925 6375 50  0000 C CNN
+F 2 "" H 1925 6525 50  0001 C CNN
+F 3 "" H 1925 6525 50  0001 C CNN
+	1    1925 6525
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 3350
+NoConn ~ 4150 3250
+NoConn ~ 6400 2750
+NoConn ~ 6400 2650
+NoConn ~ 6400 2550
 $EndSCHEMATC
