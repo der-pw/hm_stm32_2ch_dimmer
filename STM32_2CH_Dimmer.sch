@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:STM32_2CH_Dimmer-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1043,7 +1043,7 @@ P 1450 1450
 F 0 "C1" H 1460 1520 50  0000 L CNN
 F 1 "10µ" H 1550 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1450 1450 50  0001 C CNN
-F 3 "" H 1450 1450 50  0001 C CNN
+F 3 "https://de.aliexpress.com/item/2052321471.html" H 1450 1450 50  0001 C CNN
 	1    1450 1450
 	1    0    0    -1  
 $EndComp
@@ -1170,4 +1170,6 @@ NoConn ~ 4150 3250
 NoConn ~ 6400 2750
 NoConn ~ 6400 2650
 NoConn ~ 6400 2550
+Text Notes 700  2100 0    63   ~ 13
+C1 is 10µF/50V !
 $EndSCHEMATC
