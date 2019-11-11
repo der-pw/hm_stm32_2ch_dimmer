@@ -1,4 +1,4 @@
-# hm_stm32_2ch_dimmer
+# hm_stm32_2ch_dimmer - ... in progress
 PCB for a Asksin++ 2CH-LED-Dimmer based on a STM32
 Based on the good groundwork of pa-pa and its STM32 dimmer https://github.com/pa-pa/STM32Dimmer
 
