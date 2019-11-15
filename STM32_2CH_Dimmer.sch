@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "HM_STM32_2CH_Dimmer"
 Date ""
-Rev "V1.3"
+Rev "V1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1036,37 +1036,6 @@ F 3 "" H 4200 5150 50  0001 C CNN
 	1    4200 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L STM32_2CH_Dimmer-rescue:C_Small-STM32Dimmer-rescue C1
-U 1 1 5D987EF9
-P 1450 1450
-F 0 "C1" H 1460 1520 50  0000 L CNN
-F 1 "10µ" H 1550 1400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1450 1450 50  0001 C CNN
-F 3 "https://de.aliexpress.com/item/2052321471.html" H 1450 1450 50  0001 C CNN
-	1    1450 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1050 1450 1050
-Wire Wire Line
-	1450 1350 1450 1050
-Connection ~ 1450 1050
-Wire Wire Line
-	1450 1050 1600 1050
-$Comp
-L power:GND #PWR04
-U 1 1 5D997FA2
-P 1450 1700
-F 0 "#PWR04" H 1450 1450 50  0001 C CNN
-F 1 "GND" H 1455 1527 50  0000 C CNN
-F 2 "" H 1450 1700 50  0001 C CNN
-F 3 "" H 1450 1700 50  0001 C CNN
-	1    1450 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 1700 1450 1550
 Text Notes 7975 6925 0    157  ~ 31
 CC BY-NC-SA 4.0
 Text Notes 8200 4450 0    50   ~ 0
@@ -1170,6 +1139,6 @@ NoConn ~ 4150 3250
 NoConn ~ 6400 2750
 NoConn ~ 6400 2650
 NoConn ~ 6400 2550
-Text Notes 700  2100 0    63   ~ 13
-C1 is 10µF/50V !
+Wire Wire Line
+	1300 1050 1600 1050
 $EndSCHEMATC
