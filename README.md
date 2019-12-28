@@ -1,8 +1,9 @@
-# hm_stm32_2ch_dimmer - ... in progress
-PCB for a Asksin++ 2CH-LED-Dimmer based on a STM32
-Based on the good groundwork of pa-pa and its STM32 dimmer https://github.com/pa-pa/STM32Dimmer
+# hm_stm32_2ch_dimmer - WOP
 
----------
+#### Achtung: in der V1.4 fehlt an R3 eine Durchkontaktierung. 
+Das betrifft die Leitung zwischen dem DS18b20 "Data out" und Pin "B5"
+Fehler ist in V1.5 korrigiert.
+
 
 Platinendesign für einen Asksin++ 2 Kanaldimmer, der mit einem STM32 angetrieben wird.
 Basiert auf der guten Vorarbeit von pa-pa und seinem STM32 Dimmer https://github.com/pa-pa/STM32Dimmer
