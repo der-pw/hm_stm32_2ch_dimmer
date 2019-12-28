@@ -1,6 +1,6 @@
 # hm_stm32_2ch_dimmer - WOP
 
-#### Achtung: in der V1.4 fehlt an R3 eine Durchkontaktierung. Das betrifft die Leitung zwischen dem DS18b20 "Data out" und Pin "B5" Fehler ist in V1.5 korrigiert.
+#### Achtung: in der V1.4 fehlt an R3 eine Durchkontaktierung. Das betrifft die Leitung zwischen dem DS18b20 "Data out" und Pin "B5". Fehler ist in V1.5 korrigiert.
 
 
 Platinendesign für einen Asksin++ 2 Kanaldimmer, der mit einem STM32 angetrieben wird.
