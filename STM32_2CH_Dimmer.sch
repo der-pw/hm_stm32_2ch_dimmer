@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "HM_STM32_2CH_Dimmer"
 Date ""
-Rev "V1.4"
+Rev "V1.5"
 Comp ""
 Comment1 ""
 Comment2 ""

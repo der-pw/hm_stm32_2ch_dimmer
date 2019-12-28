@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.2)-2*
-G04 #@! TF.CreationDate,2019-11-16T00:04:25+01:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4)-1*
+G04 #@! TF.CreationDate,2019-12-28T21:24:24+01:00*
 G04 #@! TF.ProjectId,STM32_2CH_Dimmer,53544d33-325f-4324-9348-5f44696d6d65,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.2)-2) date 2019-11-16 00:04:25*
+G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2019-12-28 21:24:24*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
