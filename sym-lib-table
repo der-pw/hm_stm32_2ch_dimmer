@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name STM32_2CH_Dimmer-rescue)(type Legacy)(uri ${KIPRJMOD}/STM32_2CH_Dimmer-rescue.lib)(options "")(descr ""))
-)
