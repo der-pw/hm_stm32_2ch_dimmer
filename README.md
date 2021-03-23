@@ -1,4 +1,4 @@
-# hm_stm32_2ch_dimmer - WOP
+# hm_stm32_2ch_dimmer
 
 
 Platinendesign für einen Asksin++ 2 Kanaldimmer, der mit einem STM32 angetrieben wird.
